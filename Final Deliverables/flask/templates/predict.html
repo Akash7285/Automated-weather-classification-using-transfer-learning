@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automated Weather Classification Using Transfer Learning</title>
+    <style>
+		body {
+			background-image: url(image/bg1.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+        </style>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
